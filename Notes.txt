@@ -1,0 +1,3 @@
+find the path of android sdk and add it as environment variable
+
+C:\Users\EffiaSoft\AppData\Local\Android\Sdk\emulator
