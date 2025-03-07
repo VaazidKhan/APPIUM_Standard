@@ -3,6 +3,8 @@ package utils;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
+import io.appium.java_client.ios.options.XCUITestOptions;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -31,7 +33,8 @@ public class DriverManager {
         URL appiumServerURL = appiumServerURI.toURL();
         String platformName = properties.getProperty("platform.name");
 
-        if (platformName.equals("Android")) {
+        switch (platformName.toLowerCase()) {
+        case "android":
             if (properties.getProperty("android.device.type").equalsIgnoreCase("emulator")) {
                 startEmulator(properties.getProperty("android.emulator.name"));
                 while (!isEmulatorBooted()) {
@@ -41,10 +44,16 @@ public class DriverManager {
                 System.out.println("Emulator is fully booted.");
             }
             driver = new AndroidDriver(appiumServerURL, getAndroidOptions());
-        } else {
+            break;
+
+        case "ios":
+            driver = new AppiumDriver(appiumServerURL, getIosOptions());
+            break;
+
+        default:
             throw new RuntimeException("Unsupported platform: " + platformName);
-        }
     }
+}
 
     /**
      * Configures and returns Android-specific options for Appium.
@@ -62,7 +71,7 @@ public class DriverManager {
                .setAppPackage(properties.getProperty("app.package"))
                .setAppWaitActivity(properties.getProperty("app.activity"))
                .setNoReset(true)  // Keep app data and do not uninstall
-               .setCapability("dontStopAppOnReset", true);  // Corrected method
+               .setCapability("dontStopAppOnReset", true);  // Keeping background tasks running in the app
 
         // If the app is not installed, provide the APK path to install it
         if (!isAppInstalled(properties.getProperty("app.package"))) {
@@ -80,6 +89,25 @@ public class DriverManager {
         }
 
         return options;
+    }
+    
+    
+    private static XCUITestOptions getIosOptions() {
+    	
+    	XCUITestOptions options = new XCUITestOptions();
+    	options.setAutomationName("XCUITest")
+    			.setPlatformName(properties.getProperty("platform.name"))
+    			.setDeviceName(properties.getProperty("ios.device.name").equalsIgnoreCase("simulator")
+    					?properties.getProperty("ios.simulator.nam")
+    					:properties.getProperty("ios.device.name"))
+    			.setApp(properties.getProperty("ios.app.path"));
+    	
+    	if (properties.getProperty("ios.device.type").equalsIgnoreCase("real")) {
+            options.setUdid(properties.getProperty("ios.device.udid"));
+        }
+    	
+		return options;
+    	
     }
 
 
@@ -132,6 +160,7 @@ public class DriverManager {
     private static boolean isAppInstalled(String packageName) {
         try {
             ProcessBuilder processBuilder = new ProcessBuilder("adb", "shell", "pm", "list", "packages", packageName);
+            //can also use adb shell pm list packages | findstr packageName
             processBuilder.redirectErrorStream(true);
             Process process = processBuilder.start();
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));

@@ -9,23 +9,18 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">32</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">37</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">base.BaseTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1741175269340</td><td rowspan="1">47275</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">base.BaseTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1741175316731</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">base.BaseTest</td><td><a href="#m2">test</a></td><td rowspan="1">1741175316648</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">base.BaseTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1741323416873</td><td rowspan="1">13434</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">base.BaseTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1741323430428</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">base.BaseTest</td><td><a href="#m2">test</a></td><td rowspan="1">1741323430344</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">base.BaseTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the &apos;com.swaglabsmobileapp&apos; application. Consider checking the driver&apos;s troubleshooting documentation. Original error: &apos;com.swaglabsmobileapp.SplashActivity&apos; never started. Consider checking the driver&apos;s troubleshooting documentation. 
+<h2>Test</h2><h3 id="m0">base.BaseTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: &apos;DESKTOP-KR6B0UD&apos;, ip: &apos;192.168.1.117&apos;
 Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
-Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
+Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
 	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:270)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:91)
@@ -33,21 +28,49 @@ Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: 
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
 	at utils.DriverManager.initializeDriver(DriverManager.java:43)
 	at base.BaseTest.setUp(BaseTest.java:13)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:497)
+	at io.appium.java_client.internal.filters.AppiumIdempotencyFilter.lambda$apply$0(AppiumIdempotencyFilter.java:35)
+	at io.appium.java_client.internal.filters.AppiumUserAgentFilter.lambda$apply$0(AppiumUserAgentFilter.java:87)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:384)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:456)
+	... 9 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1082)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:978)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1817)
+	... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:958)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 9 more
 ... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">base.BaseTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">base.BaseTest#test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the &apos;com.swaglabsmobileapp&apos; application. Consider checking the driver&apos;s troubleshooting documentation. Original error: &apos;com.swaglabsmobileapp.SplashActivity&apos; never started. Consider checking the driver&apos;s troubleshooting documentation. 
+<h3 id="m2">base.BaseTest#test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: &apos;DESKTOP-KR6B0UD&apos;, ip: &apos;192.168.1.117&apos;
 Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
-Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
+Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
 	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:270)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:91)
@@ -55,6 +78,39 @@ Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: 
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
 	at utils.DriverManager.initializeDriver(DriverManager.java:43)
 	at base.BaseTest.setUp(BaseTest.java:13)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:497)
+	at io.appium.java_client.internal.filters.AppiumIdempotencyFilter.lambda$apply$0(AppiumIdempotencyFilter.java:35)
+	at io.appium.java_client.internal.filters.AppiumUserAgentFilter.lambda$apply$0(AppiumUserAgentFilter.java:87)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:384)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:456)
+	... 9 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1082)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:978)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1817)
+	... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:958)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 9 more
 ... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
