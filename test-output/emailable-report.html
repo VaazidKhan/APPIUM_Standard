@@ -11,22 +11,22 @@
 <tr><th colspan="8">Suite</th></tr>
 <tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">37</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">base.BaseTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1741323416873</td><td rowspan="1">13434</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">base.BaseTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1741323430428</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">base.BaseTest</td><td><a href="#m2">test</a></td><td rowspan="1">1741323430344</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">base.BaseTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1741332751609</td><td rowspan="1">1366</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">base.BaseTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1741332753087</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">base.BaseTest</td><td><a href="#m2">test</a></td><td rowspan="1">1741332753020</td><td rowspan="1">0</td></tr></tbody>
 </table>
 <h2>Test</h2><h3 id="m0">base.BaseTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: &apos;DESKTOP-KR6B0UD&apos;, ip: &apos;192.168.1.117&apos;
 Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
-Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}
+Command: [null, newSession {capabilities=[Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
+Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
 	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:270)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:91)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:103)
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
-	at utils.DriverManager.initializeDriver(DriverManager.java:43)
+	at utils.DriverManager.initializeDriver(DriverManager.java:46)
 	at base.BaseTest.setUp(BaseTest.java:13)
 Caused by: java.io.UncheckedIOException: java.net.ConnectException
 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:497)
@@ -68,15 +68,15 @@ Host info: host: &apos;DESKTOP-KR6B0UD&apos;, ip: &apos;192.168.1.117&apos;
 Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
-Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}
+Command: [null, newSession {capabilities=[Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
+Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
 	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:270)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:91)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:103)
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
-	at utils.DriverManager.initializeDriver(DriverManager.java:43)
+	at utils.DriverManager.initializeDriver(DriverManager.java:46)
 	at base.BaseTest.setUp(BaseTest.java:13)
 Caused by: java.io.UncheckedIOException: java.net.ConnectException
 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:497)

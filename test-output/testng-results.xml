@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-07T10:27:10 IST" name="Suite" finished-at="2025-03-07T10:27:10 IST" duration-ms="37">
+  <suite started-at="2025-03-07T13:02:32 IST" name="Suite" finished-at="2025-03-07T13:02:33 IST" duration-ms="37">
     <groups>
     </groups>
-    <test started-at="2025-03-07T10:27:10 IST" name="Test" finished-at="2025-03-07T10:27:10 IST" duration-ms="37">
+    <test started-at="2025-03-07T13:02:32 IST" name="Test" finished-at="2025-03-07T13:02:33 IST" duration-ms="37">
       <class name="base.BaseTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:base.BaseTest@70325e14]" started-at="2025-03-07T10:26:56 IST" name="setUp" finished-at="2025-03-07T10:27:10 IST" duration-ms="13434" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:base.BaseTest@70325e14]" started-at="2025-03-07T13:02:31 IST" name="setUp" finished-at="2025-03-07T13:02:32 IST" duration-ms="1366" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -15,8 +15,8 @@ Host info: host: 'DESKTOP-KR6B0UD', ip: '192.168.1.117'
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
-Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]]>
+Command: [null, newSession {capabilities=[Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
+Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -24,15 +24,15 @@ Host info: host: 'DESKTOP-KR6B0UD', ip: '192.168.1.117'
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
-Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}
+Command: [null, newSession {capabilities=[Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
+Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
 at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:270)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:91)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:103)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
-at utils.DriverManager.initializeDriver(DriverManager.java:43)
+at utils.DriverManager.initializeDriver(DriverManager.java:46)
 at base.BaseTest.setUp(BaseTest.java:13)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -90,7 +90,7 @@ at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHtt
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:base.BaseTest@70325e14]" started-at="2025-03-07T10:27:10 IST" name="test" finished-at="2025-03-07T10:27:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test()[pri:0, instance:base.BaseTest@70325e14]" started-at="2025-03-07T13:02:33 IST" name="test" finished-at="2025-03-07T13:02:33 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -98,8 +98,8 @@ Host info: host: 'DESKTOP-KR6B0UD', ip: '192.168.1.117'
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
-Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]]>
+Command: [null, newSession {capabilities=[Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
+Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -107,15 +107,15 @@ Host info: host: 'DESKTOP-KR6B0UD', ip: '192.168.1.117'
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
-Capabilities {appium:app: D:\SoftWare_Apps\SauceLabs.apk, appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}
+Command: [null, newSession {capabilities=[Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}]}]
+Capabilities {appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: com.swaglabsmobileapp.Splas..., appium:automationName: UiAutomator2, appium:avd: Pixel_6_Pro, appium:avdLaunchTimeout: 180000, appium:avdReadyTimeout: 60000, appium:deviceName: realme narzo N55, appium:dontStopAppOnReset: true, appium:ignoreHiddenApiPolicyError: true, appium:noReset: true, platformName: ANDROID}
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
 at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:270)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:91)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:103)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
-at utils.DriverManager.initializeDriver(DriverManager.java:43)
+at utils.DriverManager.initializeDriver(DriverManager.java:46)
 at base.BaseTest.setUp(BaseTest.java:13)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -173,7 +173,7 @@ at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHtt
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:base.BaseTest@70325e14]" started-at="2025-03-07T10:27:10 IST" name="tearDown" finished-at="2025-03-07T10:27:10 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:base.BaseTest@70325e14]" started-at="2025-03-07T13:02:33 IST" name="tearDown" finished-at="2025-03-07T13:02:33 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
